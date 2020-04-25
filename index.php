@@ -37,6 +37,7 @@
 
 <!-- begin:: Page -->
 <div class="m-grid m-grid--hor m-grid--root m-page">
+    <div>This is the repository for the app you can downloaded it from <a href="https://github.com/AbdullahDagher/project-test">here</a> please use the local version to test the app, because this is a free host with a limited number of requests per minute</div>
     <div class="m-login m-login--2 m-login-2--skin-2" id="m_login" style="background-image: url(imgs/bg-3.jpg);">
         <div class="m-login__wrapper" style="padding-top: 20%">
             <div class="m-login__container">
