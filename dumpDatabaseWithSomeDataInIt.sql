@@ -106,7 +106,6 @@ INSERT INTO `questionanswer` (`username`, `questionID`, `answer`) VALUES
 CREATE TABLE `users` (
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `securityQID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -114,10 +113,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`username`, `password`, `securityQID`) VALUES
-('pABqPIl6fZA=', '$2y$10$G3yzvHcue3hAFLOjdWkDuusjUks7z487HT04mOdHv2yxQJeledLGG', 0),
-('pABqPIl6fZB1', '$2y$10$8jsSpW1OGlRIIQdGeJ6VpOQpvLeqCN/Z5mMT1MOi5MMzGnV7i0BTK', 0),
-('tAR+IJl7L9U=', '$2y$10$BcNZWuNdd3w.QtyC2pwz9uWt3/.0LnWQJiUEXOku7a7Zqrq4i4yva', 0),
-('tAR+IJl7L9V/', '$2y$10$i3KDz0g5o2iyu0dO4AR.m.LUP898.bdXNCf6snb4J.bc17yn3k/am', 0);
+('pABqPIl6fZA=', '$2y$10$G3yzvHcue3hAFLOjdWkDuusjUks7z487HT04mOdHv2yxQJeledLGG'),
+('pABqPIl6fZB1', '$2y$10$8jsSpW1OGlRIIQdGeJ6VpOQpvLeqCN/Z5mMT1MOi5MMzGnV7i0BTK'),
+('tAR+IJl7L9U=', '$2y$10$BcNZWuNdd3w.QtyC2pwz9uWt3/.0LnWQJiUEXOku7a7Zqrq4i4yva'),
+('tAR+IJl7L9V/', '$2y$10$i3KDz0g5o2iyu0dO4AR.m.LUP898.bdXNCf6snb4J.bc17yn3k/am');
 
 --
 -- Indexes for dumped tables
