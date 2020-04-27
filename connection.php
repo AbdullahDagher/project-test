@@ -1,8 +1,8 @@
 <?php
 
-    $dsn = 'mysql:host=remotemysql.com;dbname=6Cf4IBWjcc';
-    $dataBaseUserName = '6Cf4IBWjcc';
-    $dataBasePassword = 'P8g9MIMY5R';
+    $dsn = 'mysql:host=db4free.net;dbname=abdullahdagher77';
+    $dataBaseUserName = 'abdullahdagher77';
+    $dataBasePassword = 'abdullahdagher77';
     $option = array(
         PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'
     );
